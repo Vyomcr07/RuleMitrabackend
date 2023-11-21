@@ -12,6 +12,6 @@ def predict():
     message = {"answer": response }  # Createing a dictionary with the response
     return jsonify(message)  # Returning the response as a JSON object
 
-# # Run the Flask app if this script is the main entry point in debug mode 
-# if __name__ == '__main__':
-#     app.run(debug=True)  
+     Run the Flask app if this script is the main entry point in debug mode 
+if __name__ == '__main__':
+    app.run(debug=True)  
